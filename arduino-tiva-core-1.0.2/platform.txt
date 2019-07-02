@@ -91,11 +91,12 @@ recipe.output.save_file={build.project_name}.{build.variant}.bin
 recipe.size.pattern="{compiler.path}{compiler.size.cmd}" -A "{build.path}/{build.project_name}.elf"
 recipe.size.regex=\.text\s+([0-9]+).*
 
-# Custom tiva-dfu-prog programmer
-tools.tiva-dfu-prog.upload.params.verbose=-v
-tools.tiva-dfu-prog.upload.params.quiet=
-tools.tiva-dfu-prog.path={runtime.tools.tiva-dfu-prog.path}
-tools.tiva-dfu-prog.config.path=
-tools.tiva-dfu-prog.cmd.path={path}/tiva-dfu-prog
-tools.tiva-dfu-prog.upload.pattern={cmd.path} {upload.verbose} -r -p {serial.port} -f "{build.path}/{build.project_name}.bin"
+# TI's DSLite
+tools.dslite.upload.params.verbose=
+tools.dslite.upload.params.quiet=
+tools.dslite.path={runtime.tools.dslite-7.2.0.2096.path}
+tools.dslite.config.path={path}
+tools.dslite.cmd.path={path}/DebugServer/bin/DSLite
+tools.dslite.upload.pattern={cmd.path} {upload.verbose} load -c "{config.path}/{build.variant}.ccxml" -f "{build.path}/{build.project_name}.elf"
+
 

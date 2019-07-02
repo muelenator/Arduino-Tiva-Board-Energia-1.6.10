@@ -1,2 +1,3 @@
-tiva-dfu-prog.name=Tiva DFU Programmer
-tiva-dfu-prog.protocol=dfu
+dslite.name=dslite
+dslite.protocol=dslite
+
