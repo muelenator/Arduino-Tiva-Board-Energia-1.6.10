@@ -1,6 +1,6 @@
 {
 	"packages": [{
-		"maintainer": "Jacob Miller",
+		"maintainer": "Richard Mueller",
 		"help": {
 			"online": "https://hackaday.io/project/21284-arduino-tiva"
 		},
