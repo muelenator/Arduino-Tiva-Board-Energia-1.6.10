@@ -8,7 +8,7 @@
 		"platforms": [{
 				"category": "ARDUINO-TIVA BOARDS",
 				"name": "Arduino-Tiva Boards",
-				"url": "https://github.com/muelenator/Arduino-Tiva-Board-Energia-1.6.10/blob/master/release/arduino-tiva-core-1.0.2-14.zip?raw=true",
+				"url": "https://raw.githubusercontent.com/muelenator/Arduino-Tiva-Board-Energia-1.6.10/master/release/arduino-tiva-core-1.0.2-14.zip",
 				"checksum": "SHA-256:DFCFD486F4A54BC685D26A9E9F00B13FB0E23455D90F14D3ED0601B0225323B2",
 				"help": {
 					"online": "https://hackaday.io/project/21284-arduino-tiva"
