@@ -4,7 +4,7 @@
 		"help": {
 			"online": "https://hackaday.io/project/21284-arduino-tiva"
 		},
-		"websiteURL": "https://github.com/jakeson21/Arduino-Tiva-Board-Energia-1.6.10",
+		"websiteURL": "https://github.com/muelenator/Arduino-Tiva-Board-Energia-1.6.10",
 		"platforms": [{
 				"category": "ARDUINO-TIVA BOARDS",
 				"name": "Arduino-Tiva Boards",
@@ -75,7 +75,7 @@
 						"size":"20376"
 					},
 					{
-						"url":"https://raw.githubusercontent.com/jakeson21/Arduino-Tiva-Board-Energia-1.6.10/master/release/tiva-dfu-prog-1.0.1-x86_64-pc-linux-gnu.tar.gz",
+						"url":"https://raw.githubusercontent.com/muelenator/Arduino-Tiva-Board-Energia-1.6.10/master/release/tiva-dfu-prog-1.0.1-x86_64-pc-linux-gnu.tar.gz",
 						"checksum":"SHA-256:007B76C228522B1345ACD3510EED6C0DAF0196F60D2F8776A9129D897BACC2A5",
 						"host":"x86_64-pc-linux-gnu",
 						"archiveFileName":"tiva-dfu-prog-1.0.1-x86_64-pc-linux-gnu.tar.gz",
